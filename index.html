@@ -116,7 +116,7 @@
                 <!-- Header on top left -->
                 <div class="navbar-header">
                     <!-- The burger icon on top right if small screen -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarNavDropdown">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>                        
@@ -125,21 +125,18 @@
                 </div>
 
                 <!-- Top right, collapse on small screens -->
-                <nav class="navbar">
-                    <div class="collapse navbar-collapse" id="myNav">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item"><a href="#aboutMe">About</a></li>
-                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-togle="dropdown" href="#" id="navbarDropdownMenuLink">Projects <span class="caret"></span></a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#intra">Basic Intranet Site</a>
-                                    <a class="dropdown-item" href="#myblog">MyBlog</a>
-                                </div>    
-                            </li>
-                            <li class="nav-item"><a href="#where">Where</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item"><a class="nav-link" href="#aboutMe">About</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Projects <span class="caret"></span></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#intra">Basic Intranet Site</a>
+                                <a class="dropdown-item" href="#myblog">MyBlog</a>
+                            </div>    
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#where">Where</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
